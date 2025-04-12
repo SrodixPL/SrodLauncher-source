@@ -1,0 +1,83 @@
+﻿<Window x:Class="SrodLauncher_v2._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SrodLauncher_v2._0"
+        xmlns:viewModel="clr-namespace:SrodLauncher_v2._0.MVVM.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        AllowsTransparency="True"
+        >
+    <Window.DataContext>
+        <viewModel:MainViewModel/>
+    </Window.DataContext>
+
+    <Border
+        CornerRadius="20"
+        Background="#2A2A2A"
+        BorderThickness="1.5"
+        BorderBrush="#FFC7EF">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Text="SrodLauncher"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Foreground="#FFC7EF"
+                       FontSize="20"
+                       FontWeight="SemiBold"/>
+            <TextBlock Text="Welcome {Username}"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Foreground="#FFC7EF"
+                   FontSize="20"
+                   Grid.Column="1"
+                       x:Name="welcomeText"/>
+            <Button Content="X" Width="30" Height="30" Grid.Column="1" HorizontalAlignment="Right" Margin="0, 0, 10, 0" Background="Transparent" BorderThickness="0" Click="closeProgram" Foreground="White"/>
+            <StackPanel Grid.Row="1" Margin="0, 20, 0, 0">
+                <RadioButton Content="SrodPack"
+                 Height="60"
+                 FontSize="20"
+                 Style="{StaticResource MenuButton}"
+                 IsChecked="True"
+                 Margin="0,0,0,3"
+                 Command="{Binding SrodPackCommand}"/>
+                <RadioButton Content="Minecraft"
+                 Height="60"
+                 FontSize="20"
+                 Style="{StaticResource MenuButton}"
+                 Command="{Binding MinecraftCommand}"/>
+                <RadioButton Content="Launcher Settings"
+                 Height="60"
+                 FontSize="20"
+                 Style="{StaticResource MenuButton}"
+                 VerticalAlignment="Bottom"
+                 Margin="0,180,0,0"
+                 Command="{Binding SettingsCommand}"/>
+            </StackPanel>
+            <TextBlock Grid.Column="1"
+                       Text="{Binding Title}"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Foreground="#FFFFFF"
+                       FontSize="18"/>
+            <Border CornerRadius="8" Background="#E6E6E6" Grid.Column="1" Grid.Row="1" Margin="10, 10, 10, 10">
+                <ContentControl Grid.Column="1"
+                                Grid.Row="1"
+                                Margin="5"
+                                Content="{Binding CurrentView}"/>
+            </Border>
+        </Grid>
+    </Border>
+</Window>
