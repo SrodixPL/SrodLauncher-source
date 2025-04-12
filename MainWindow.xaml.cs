@@ -53,6 +53,14 @@ namespace SrodLauncher_v2._0
             CheckForUpdatesAsync();
         }
 
+        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ButtonState == MouseButtonState.Pressed)
+            {
+                this.DragMove();
+            }
+        }
+
         private async void CheckForUpdatesAsync()
         {
             try

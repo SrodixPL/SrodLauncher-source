@@ -27,6 +27,6 @@
             </Border>
         </Grid>
 
-        <Button Content="PLAY" FontSize="38" Style="{StaticResource ButtonsTheme}" Grid.Row="1" Width="200" Height="60"></Button>
+        <Button Content="Play" FontSize="38" Style="{StaticResource ButtonsTheme}" Grid.Row="1" Width="200" Height="60"></Button>
     </Grid>
 </UserControl>

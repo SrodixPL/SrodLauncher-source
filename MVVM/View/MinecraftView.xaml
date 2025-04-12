@@ -125,7 +125,7 @@
         </Grid>
 
         <TextBlock Grid.Row="1" Width="500" Height="30" Margin="20,0,0,0" VerticalAlignment="Center" FontSize="17" HorizontalAlignment="Center" x:Name="loadingText" Visibility="Hidden" Text="Loading..."/>
-        <Button Content="PLAY" FontSize="38" Style="{StaticResource ButtonsTheme}" Grid.Row="1" Width="200" Height="60" HorizontalAlignment="Center" Margin="0,0,20,0" x:Name="playButton" Click="playButton_Click"/>
+        <Button Content="Play" FontSize="38" Style="{StaticResource ButtonsTheme}" Grid.Row="1" Width="200" Height="60" HorizontalAlignment="Center" Margin="0,0,20,0" x:Name="playButton" Click="playButton_Click"/>
         <ComboBox Grid.Row="1" 
           Margin="0,0,20,0" 
           VerticalAlignment="Center" 

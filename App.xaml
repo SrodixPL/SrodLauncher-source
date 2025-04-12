@@ -6,11 +6,14 @@
              xmlns:view="clr-namespace:SrodLauncher_v2._0.MVVM.View"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
+
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/SrodLauncher v2.0;component/Theme/MenuButton.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/SrodLauncher v2.0;component/Theme/ButtonsTheme.xaml" />
             </ResourceDictionary.MergedDictionaries>
+
+            <FontFamily x:Key="McFont">pack://application:,,,/Fonts/#minecrafter</FontFamily>
 
             <DataTemplate DataType="{x:Type viewModel:SrodPackViewModel}">
                 <view:SrodPackView/>
@@ -23,6 +26,9 @@
             <DataTemplate DataType="{x:Type viewModel:SettingsViewModel}">
                 <view:SettingsView/>
             </DataTemplate>
+
+
         </ResourceDictionary>
+
     </Application.Resources>
 </Application>

@@ -1,0 +1,62 @@
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\SrodLauncher v2.0.exe.config
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\SrodLauncher v2.0.exe.manifest
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\SrodLauncher v2.0.application
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\SrodLauncher v2.0.exe
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\SrodLauncher v2.0.pdb
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\CmlLib.Core.Commons.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\CmlLib.Core.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\DiscordRPC.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\SevenZip.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.Buffers.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.Memory.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.Text.Json.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.ValueTuple.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\DiscordRPC.pdb
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\DiscordRPC.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\SevenZip.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.Buffers.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.Memory.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.Text.Json.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Debug\System.ValueTuple.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\SrodLauncher v2.0.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\Theme\ButtonsTheme.baml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\Theme\MenuButton.baml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\MVVM\View\SettingsView.g.cs
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\MVVM\View\SrodPackView.g.cs
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\MVVM\View\MinecraftView.g.cs
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\App.g.cs
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\SrodLauncher v2.0_MarkupCompile.cache
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\SrodLauncher v2.0_MarkupCompile.lref
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\App.baml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\MVVM\View\SettingsView.baml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\MVVM\View\SrodPackView.baml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\MVVM\View\MinecraftView.baml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\SrodLauncher v2.0.g.resources
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\SrodLauncher_v2._0.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\SrodLauncher v2.0.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\SrodLauncher v2.0.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\SrodLauncher v2.0.exe.manifest
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\SrodLauncher v2.0.application
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\SrodLaun.C9B24E91.Up2Date
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\SrodLauncher v2.0.exe
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Debug\SrodLauncher v2.0.pdb

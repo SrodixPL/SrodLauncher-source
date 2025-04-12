@@ -37,8 +37,24 @@ namespace SrodLauncher_v2._0.MVVM.View
 
             setUsername.TextChanged += OnUsernameTextChanged;
             setRAM.TextChanged += OnRamTextChanged;
+            string versionFilePath = System.IO.Path.Combine(settingsPath, "version.json");
+
+            if (File.Exists(versionFilePath))
+            {
+                string localVersionJson = File.ReadAllText(versionFilePath);
+                var localVersionInfo = JsonSerializer.Deserialize<VersionInfo>(localVersionJson);
+                LauncherVersion.Text = localVersionInfo.Version;
+                LauncherBuild.Text = localVersionInfo.Build;
+                LauncherDate.Text = localVersionInfo.Date;
+            }
         }
 
+        private class VersionInfo
+        {
+            public string Version { get; set; }
+            public string Build { get; set; }
+            public string Date { get; set; }
+        }
         private void LoadSettings()
         {
             var settings = ReadSettings();
