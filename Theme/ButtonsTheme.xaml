@@ -58,6 +58,7 @@
                                                VerticalAlignment="Top"
                                                HorizontalAlignment="Center"
                                                Foreground="#FFC7EF"
+                                               Margin="0,4,0,0"
                                                FontSize="24"
                                                FontFamily="pack://application:,,,/Fonts/#Minecraftia"
                                                Opacity="0">

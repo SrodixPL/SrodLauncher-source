@@ -5,6 +5,7 @@ using System.Text.Json;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Management;
+using CmlLib.Core.Auth.Microsoft;
 
 namespace SrodLauncher_v2._0.MVVM.View
 {
@@ -55,7 +56,7 @@ namespace SrodLauncher_v2._0.MVVM.View
             public string Build { get; set; }
             public string Date { get; set; }
         }
-        private void LoadSettings()
+        private async void LoadSettings()
         {
             var settings = ReadSettings();
 
@@ -79,6 +80,41 @@ namespace SrodLauncher_v2._0.MVVM.View
 
             setUsername.Text = username;
             setRAM.Text = ram.ToString();
+
+            // Check if user is already logged in
+            try
+            {
+                var loginHandler = JELoginHandlerBuilder.BuildDefault();
+                var session = await loginHandler.AuthenticateSilently(); // Assuming this method exists to check current session
+
+                if (session != null)
+                {
+                    // User is logged in
+                    loggedInStatusText.Text = $"Logged in as: {session.Username}";
+                    username = session.Username;
+                    setUsername.Text = username;
+                    setUsername.IsEnabled = false;
+
+                    // Update login/logout buttons
+                    loginButton.Visibility = Visibility.Collapsed;
+                    signOutButton.Visibility = Visibility.Visible;
+
+                    SaveSettings();
+                }
+                else
+                {
+                    // User is not logged in
+                    loggedInStatusText.Text = "Not logged in";
+                    setUsername.IsEnabled = true;
+                    loginButton.Visibility = Visibility.Visible;
+                    signOutButton.Visibility = Visibility.Collapsed;
+                }
+            }
+            catch
+            {
+                // Error checking login state, assume not logged in
+                loggedInStatusText.Text = "Not logged in";
+            }
         }
 
         private void OnUsernameTextChanged(object sender, TextChangedEventArgs e)
@@ -175,6 +211,61 @@ namespace SrodLauncher_v2._0.MVVM.View
             else
             {
                 return new Settings { Username = "player", Ram = 2048 };
+            }
+        }
+
+        // First, update your login and signout methods
+        public async void loginButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var loginHandler = JELoginHandlerBuilder.BuildDefault();
+                var session = await loginHandler.Authenticate();
+
+                if (session != null)
+                {
+                    // Update the UI to show logged in status
+                    loggedInStatusText.Text = $"Logged in as: {session.Username}";
+
+                    // Update settings with Microsoft username
+                    username = session.Username;
+                    setUsername.Text = username;
+                    SaveSettings();
+
+                    // Disable username textbox
+                    setUsername.IsEnabled = false;
+
+                    // Update login/logout buttons (optional)
+                    loginButton.Visibility = Visibility.Collapsed;
+                    signOutButton.Visibility = Visibility.Visible;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Login failed: {ex.Message}", "Login Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        public async void signOutButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var loginHandler = JELoginHandlerBuilder.BuildDefault();
+                await loginHandler.Signout();
+
+                // Reset login status
+                loggedInStatusText.Text = "Not logged in";
+
+                // Re-enable username textbox
+                setUsername.IsEnabled = true;
+
+                // Update login/logout buttons (optional)
+                loginButton.Visibility = Visibility.Visible;
+                signOutButton.Visibility = Visibility.Collapsed;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Sign out failed: {ex.Message}", "Sign Out Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
     }

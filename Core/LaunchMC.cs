@@ -8,6 +8,7 @@ using System.Text.Json;
 using System.Windows.Controls;
 using CmlLib.Core;
 using CmlLib.Core.Auth;
+using CmlLib.Core.Auth.Microsoft;
 using CmlLib.Core.ProcessBuilder;
 using DiscordRPC;
 using SrodLauncher_v2._0.MVVM.View;
@@ -25,7 +26,6 @@ namespace SrodLauncher_v2._0.Core
                     Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),
                     "SrodLauncherData",
                     "settings.json");
-
                 if (File.Exists(settingsFilePath))
                 {
                     try
@@ -48,6 +48,7 @@ namespace SrodLauncher_v2._0.Core
         private int ram;
         private string version;
         private TextBlock launcherText;
+
         public LaunchMC(SettingsView settingsView, MinecraftView minecraftView)
         {
             var settings = SettingsReader.ReadSettings();
@@ -57,6 +58,7 @@ namespace SrodLauncher_v2._0.Core
             launcherText = minecraftView.GetLauncherText();
             System.Windows.Controls.Button playButton = minecraftView.GetPlayButton();
             playButton.IsEnabled = true;
+
             async void startGame()
             {
                 try
@@ -76,17 +78,49 @@ namespace SrodLauncher_v2._0.Core
                         var total = args.TotalBytes / (1024.0 * 1024.0);
                         launcherText.Text = $"Downloading {downloaded:0.00} MB of {total:0.00} MB";
                     };
+
                     await launcher.InstallAsync(version);
+
+                    MSession session;
+                    bool isLoggedIn = false;
+
+                    try
+                    {
+                        var loginHandler = JELoginHandlerBuilder.BuildDefault();
+                        var msSession = await loginHandler.AuthenticateSilently();
+
+                        if (msSession != null)
+                        {
+                            isLoggedIn = true;
+                            session = msSession;
+                            launcherText.Text = $"Launching as {msSession.Username} (Premium)...";
+                        }
+                        else
+                        {
+                            session = MSession.CreateOfflineSession(username);
+                            launcherText.Text = $"Launching as {username} (Offline)...";
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        session = MSession.CreateOfflineSession(username);
+                        launcherText.Text = $"Authentication error, launching in offline mode as {username}...";
+                    }
+
                     var launchOption = new MLaunchOption
                     {
-                        Session = MSession.CreateOfflineSession(username),
+                        Session = session,
                         MaximumRamMb = ram,
                         ScreenWidth = 1200,
                         ScreenHeight = 720,
                         FullScreen = false,
                         Path = path,
                     };
-                    launcherText.Text = "Launching Minecraft...";
+
+                    launcherText.Text = isLoggedIn ?
+                        "Launching Minecraft with premium account..." :
+                        "Launching Minecraft in offline mode...";
+
                     var process = await launcher.CreateProcessAsync(version, launchOption);
                     process.Start();
                     launcherText.Text = "Minecraft launched!";

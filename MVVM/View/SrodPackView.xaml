@@ -27,6 +27,7 @@
             </Border>
         </Grid>
 
-        <Button Content="Play" FontSize="38" Style="{StaticResource ButtonsTheme}" Grid.Row="1" Width="200" Height="60"></Button>
+        <Button Content="Play" FontSize="38" Style="{StaticResource ButtonsTheme}" Grid.Row="1" Width="200" Height="60" x:Name="playButton" Click="playButton_Click"></Button>
+        <TextBlock Grid.Row="1" Width="500" Height="30" Margin="20,0,0,0" VerticalAlignment="Center" FontSize="17" HorizontalAlignment="Center" x:Name="loadingText" Text="Loading..." Visibility="Hidden"/>
     </Grid>
 </UserControl>

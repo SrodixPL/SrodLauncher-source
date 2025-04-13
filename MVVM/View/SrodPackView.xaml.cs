@@ -11,7 +11,10 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.IO;
+using System.Text.Json;
+using System.Security.Cryptography.X509Certificates;
+using SrodLauncher_v2._0.Core;
 
 namespace SrodLauncher_v2._0.MVVM.View
 {
@@ -20,9 +23,29 @@ namespace SrodLauncher_v2._0.MVVM.View
     /// </summary>
     public partial class SrodPackView : UserControl
     {
+        private LaunchSP launchSP;
+        private SettingsView SettingsView;
+
         public SrodPackView()
         {
             InitializeComponent();
+        }
+
+        public Button GetPlayButton()
+        {
+            return playButton;
+        }
+
+        public TextBlock GetLauncherText()
+        {
+            return loadingText;
+        }
+
+        private void playButton_Click(object sender, RoutedEventArgs e)
+        {
+            playButton.Visibility = Visibility.Hidden;
+            loadingText.Visibility = Visibility.Visible;
+            launchSP = new LaunchSP(SettingsView, this);
         }
     }
 }

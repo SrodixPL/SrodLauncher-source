@@ -1,0 +1,85 @@
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\SrodLauncher v2.0.exe.config
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\SrodLauncher v2.0.exe.manifest
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\SrodLauncher v2.0.application
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\SrodLauncher v2.0.exe
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\SrodLauncher v2.0.pdb
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\CmlLib.Core.Commons.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\CmlLib.Core.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\DiscordRPC.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\SevenZip.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Buffers.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Memory.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Numerics.Vectors.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Text.Encodings.Web.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Text.Json.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Threading.Tasks.Dataflow.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.ValueTuple.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\DiscordRPC.pdb
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\DiscordRPC.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\ICSharpCode.SharpZipLib.pdb
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\ICSharpCode.SharpZipLib.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\SevenZip.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Buffers.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Memory.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Numerics.Vectors.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Text.Encodings.Web.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Text.Json.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Threading.Tasks.Dataflow.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.ValueTuple.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\SrodLauncher v2.0.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\Theme\ButtonsTheme.baml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\Theme\MenuButton.baml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\MainWindow.g.cs
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\MVVM\View\SettingsView.g.cs
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\MVVM\View\SrodPackView.g.cs
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\MVVM\View\MinecraftView.g.cs
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\App.g.cs
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\SrodLauncher v2.0_MarkupCompile.cache
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\SrodLauncher v2.0_MarkupCompile.lref
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\App.baml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\MainWindow.baml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\MVVM\View\SettingsView.baml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\MVVM\View\SrodPackView.baml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\MVVM\View\MinecraftView.baml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\SrodLauncher v2.0.g.resources
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\SrodLauncher_v2._0.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\SrodLauncher v2.0.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\SrodLauncher v2.0.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\SrodLauncher v2.0.exe.manifest
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\SrodLauncher v2.0.application
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\SrodLaun.C9B24E91.Up2Date
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\SrodLauncher v2.0.exe
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\SrodLauncher v2.0.pdb
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\CmlLib.Core.Installer.Forge.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\HtmlAgilityPack.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\HtmlAgilityPack.pdb
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\HtmlAgilityPack.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\CmlLib.Core.Auth.Microsoft.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\Microsoft.Web.WebView2.Core.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Net.Http.Json.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\XboxAuthNet.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\XboxAuthNet.Game.dll
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\Microsoft.Web.WebView2.Core.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\bin\Release\System.Net.Http.Json.xml
+C:\Users\Administrator\Documents\GitHub\SrodLauncher-source\obj\Release\SrodLauncher v2.0_Content.g.cs
